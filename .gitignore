@@ -1,0 +1,19 @@
+# ignore all dotfiles by except git specific ones
+.*
+!.gitignore
+!.git*
+
+# ignore all temporary files
+*~
+
+# ignore compilation related directories in the root of the project
+/build
+/compile
+/dist
+/lib
+/ecbin
+/target
+/bin/stdout
+/META-INF
+/temp
+/bin
