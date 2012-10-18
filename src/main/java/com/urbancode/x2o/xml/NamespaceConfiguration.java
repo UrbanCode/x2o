@@ -44,7 +44,7 @@ public class NamespaceConfiguration {
     // INSTANCE
     //**********************************************************************************************
 
-    final private String NAMESPACE_FILE = "terralib.classes";
+    final private String NAMESPACE_FILE = "x2o.classes";
 
     // <NameSpace, <ElementName, ClassName>>
     private Map<String, BidiMap> nameSpaces = new HashMap<String, BidiMap>();
