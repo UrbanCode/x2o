@@ -48,6 +48,11 @@ abstract public class SubTask extends Task {
 
     //----------------------------------------------------------------------------------------------
     @Override
+    abstract public void update()
+    throws Exception;
+
+    //----------------------------------------------------------------------------------------------
+    @Override
     abstract public void destroy()
     throws Exception;
 }

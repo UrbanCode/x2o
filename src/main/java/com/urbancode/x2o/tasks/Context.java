@@ -21,19 +21,19 @@ import com.urbancode.x2o.util.PropertyResolver;
 public interface Context {
 
     //----------------------------------------------------------------------------------------------
-    public void create() throws EnvironmentCreationException;
+    public void create();
 
     //----------------------------------------------------------------------------------------------
-    public void restore() throws EnvironmentRestorationException;
+    public void restore();
 
     //----------------------------------------------------------------------------------------------
-    public void destroy() throws EnvironmentDestructionException;
+    public void update();
+
+    //----------------------------------------------------------------------------------------------
+    public void destroy();
 
     //----------------------------------------------------------------------------------------------
     public void setResolver(PropertyResolver resolver);
-
-    //----------------------------------------------------------------------------------------------
-    public EnvironmentTask getEnvironment();
 
     //----------------------------------------------------------------------------------------------
     public void setProperty(String prop, String value);

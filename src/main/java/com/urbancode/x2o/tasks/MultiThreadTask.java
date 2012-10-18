@@ -94,13 +94,19 @@ public class MultiThreadTask extends Task implements Runnable {
 
     //----------------------------------------------------------------------------------------------
     @Override
-    public void destroy() {
+    public void restore() {
 
     }
 
     //----------------------------------------------------------------------------------------------
     @Override
-    public void restore() {
+    public void update() throws Exception {
+
+    }
+
+    //----------------------------------------------------------------------------------------------
+    @Override
+    public void destroy() {
 
     }
 
