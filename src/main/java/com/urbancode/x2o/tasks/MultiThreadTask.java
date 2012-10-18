@@ -100,12 +100,6 @@ public class MultiThreadTask extends Task implements Runnable {
 
     //----------------------------------------------------------------------------------------------
     @Override
-    public void update() throws Exception {
-
-    }
-
-    //----------------------------------------------------------------------------------------------
-    @Override
     public void destroy() {
 
     }
