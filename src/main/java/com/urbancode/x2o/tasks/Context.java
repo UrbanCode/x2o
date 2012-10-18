@@ -21,13 +21,16 @@ import com.urbancode.x2o.util.PropertyResolver;
 public interface Context {
 
     //----------------------------------------------------------------------------------------------
-    public void create();
+    public void create()
+    throws CreationException;
 
     //----------------------------------------------------------------------------------------------
-    public void restore();
+    public void restore()
+    throws RestorationException;
 
     //----------------------------------------------------------------------------------------------
-    public void destroy();
+    public void destroy()
+    throws DestructionException;
 
     //----------------------------------------------------------------------------------------------
     public void setResolver(PropertyResolver resolver);
