@@ -6,6 +6,9 @@
 # ignore all temporary files
 *~
 
+# ignore scripts
+*.sh
+
 # ignore compilation related directories in the root of the project
 /build
 /compile

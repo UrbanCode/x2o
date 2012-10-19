@@ -99,4 +99,16 @@
       <layout>default</layout>
     </repository>
   </repositories>
+  
+  <distributionManagement>
+    <repository>
+        <id>repo</id>
+        <url>https://github.com/UrbanCode/mvn-repo/releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshot-repo</id>
+        <url>https://github.com/UrbanCode/mvn-repo/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
+  
 </project>
