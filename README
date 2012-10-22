@@ -1,0 +1,8 @@
+x2o - the xml to Java object converter
+
+x2o converts xml to Java objects. Specifically, the top-level xml element maps to a class that
+implements the com.urbancode.x2o.tasks.Context interface, while all other elements map to
+an object that extends com.urbancode.x2o.tasks.Tasks. Attributes correspond to get/set methods
+for writing to/reading from xml, respectively.
+
+x2o is the xml engine behind Terraform, Urbancode's environment provisioning automation tool.
