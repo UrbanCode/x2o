@@ -43,11 +43,6 @@ abstract public class SubTask extends Task {
 
     //----------------------------------------------------------------------------------------------
     @Override
-    abstract public void restore()
-    throws Exception;
-
-    //----------------------------------------------------------------------------------------------
-    @Override
     abstract public void destroy()
     throws Exception;
 }

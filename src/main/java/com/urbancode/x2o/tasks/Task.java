@@ -46,8 +46,5 @@ abstract public class Task {
     abstract public void create() throws Exception;
 
     //----------------------------------------------------------------------------------------------
-    abstract public void restore() throws Exception;
-
-    //----------------------------------------------------------------------------------------------
     abstract public void destroy() throws Exception;
 }
